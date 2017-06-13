@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}</ProjectGuid>
+    <ProjectGuid>{32BB380C-C2CA-4819-B577-60C734BE3AC5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My21_RenderAMesh</RootNamespace>
   </PropertyGroup>

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_RenderAMesh", "ch02\21_RenderAMesh.vcxproj", "{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch02", "ch02", "{5445A528-7973-4E87-96B3-A77C8D58008B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch03", "ch03", "{D2829B27-A9D1-4C7B-992A-4D071CA311B4}"
@@ -15,16 +13,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.3_HardwareSkinning", "ch0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.4_RenderStaticMesh", "ch03\3.4_RenderStaticMesh.vcxproj", "{F1034FB0-7CC9-4BEF-A2CE-12F8E6EFAC96}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1_RenderAMesh", "ch02\2.1_RenderAMesh.vcxproj", "{32BB380C-C2CA-4819-B577-60C734BE3AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}.Debug|Win32.Build.0 = Debug|Win32
-		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}.Release|Win32.ActiveCfg = Release|Win32
-		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D}.Release|Win32.Build.0 = Release|Win32
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Debug|Win32.Build.0 = Debug|Win32
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Release|Win32.ActiveCfg = Release|Win32
@@ -41,12 +37,16 @@ Global
 		{F1034FB0-7CC9-4BEF-A2CE-12F8E6EFAC96}.Debug|Win32.Build.0 = Debug|Win32
 		{F1034FB0-7CC9-4BEF-A2CE-12F8E6EFAC96}.Release|Win32.ActiveCfg = Release|Win32
 		{F1034FB0-7CC9-4BEF-A2CE-12F8E6EFAC96}.Release|Win32.Build.0 = Release|Win32
+		{32BB380C-C2CA-4819-B577-60C734BE3AC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32BB380C-C2CA-4819-B577-60C734BE3AC5}.Debug|Win32.Build.0 = Debug|Win32
+		{32BB380C-C2CA-4819-B577-60C734BE3AC5}.Release|Win32.ActiveCfg = Release|Win32
+		{32BB380C-C2CA-4819-B577-60C734BE3AC5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D} = {5445A528-7973-4E87-96B3-A77C8D58008B}
+		{32BB380C-C2CA-4819-B577-60C734BE3AC5} = {5445A528-7973-4E87-96B3-A77C8D58008B}
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE} = {D2829B27-A9D1-4C7B-992A-4D071CA311B4}
 		{CD7B57F5-967E-468D-A3EF-E44FF37ED771} = {D2829B27-A9D1-4C7B-992A-4D071CA311B4}
 		{24BAF90D-8754-4C88-ACF8-C2FE8B2D2C1C} = {D2829B27-A9D1-4C7B-992A-4D071CA311B4}
