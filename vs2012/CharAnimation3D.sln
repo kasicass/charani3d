@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch03", "ch03", "{D2829B27-A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1_BoneHierarchy", "ch03\3.1_BoneHierarchy.vcxproj", "{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2_SoftwareSkinning", "ch03\3.2_SoftwareSkinning.vcxproj", "{CD7B57F5-967E-468D-A3EF-E44FF37ED771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -23,6 +25,10 @@ Global
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Debug|Win32.Build.0 = Debug|Win32
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Release|Win32.ActiveCfg = Release|Win32
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE}.Release|Win32.Build.0 = Release|Win32
+		{CD7B57F5-967E-468D-A3EF-E44FF37ED771}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD7B57F5-967E-468D-A3EF-E44FF37ED771}.Debug|Win32.Build.0 = Debug|Win32
+		{CD7B57F5-967E-468D-A3EF-E44FF37ED771}.Release|Win32.ActiveCfg = Release|Win32
+		{CD7B57F5-967E-468D-A3EF-E44FF37ED771}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8F8A2C03-8CBE-4CF0-A881-97999A5F796D} = {5445A528-7973-4E87-96B3-A77C8D58008B}
 		{4C9DBF81-A5D8-44F7-9652-656507D3C8DE} = {D2829B27-A9D1-4C7B-992A-4D071CA311B4}
+		{CD7B57F5-967E-468D-A3EF-E44FF37ED771} = {D2829B27-A9D1-4C7B-992A-4D071CA311B4}
 	EndGlobalSection
 EndGlobal
